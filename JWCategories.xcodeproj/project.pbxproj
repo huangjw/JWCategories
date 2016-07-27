@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F42A49161D488D1300DE3A46 /* NSString+JWURLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = F42A49151D488D1300DE3A46 /* NSString+JWURLEncode.m */; };
+		F42A49191D4894BE00DE3A46 /* NSString+JWJSONString.m in Sources */ = {isa = PBXBuildFile; fileRef = F42A49181D4894BE00DE3A46 /* NSString+JWJSONString.m */; };
 		F483C3231D438F8B007AB668 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F483C3221D438F8B007AB668 /* main.m */; };
 		F483C3261D438F8B007AB668 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F483C3251D438F8B007AB668 /* AppDelegate.m */; };
 		F483C3291D438F8B007AB668 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F483C3281D438F8B007AB668 /* ViewController.m */; };
@@ -16,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F42A49141D488D1300DE3A46 /* NSString+JWURLEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+JWURLEncode.h"; path = "NSString/NSString+JWURLEncode.h"; sourceTree = "<group>"; };
+		F42A49151D488D1300DE3A46 /* NSString+JWURLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+JWURLEncode.m"; path = "NSString/NSString+JWURLEncode.m"; sourceTree = "<group>"; };
+		F42A49171D4894BE00DE3A46 /* NSString+JWJSONString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+JWJSONString.h"; path = "NSString/NSString+JWJSONString.h"; sourceTree = "<group>"; };
+		F42A49181D4894BE00DE3A46 /* NSString+JWJSONString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+JWJSONString.m"; path = "NSString/NSString+JWJSONString.m"; sourceTree = "<group>"; };
 		F483C31E1D438F8B007AB668 /* JWCategories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWCategories.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F483C3221D438F8B007AB668 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F483C3241D438F8B007AB668 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,6 +45,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F42A49131D488BFA00DE3A46 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				F42A49141D488D1300DE3A46 /* NSString+JWURLEncode.h */,
+				F42A49151D488D1300DE3A46 /* NSString+JWURLEncode.m */,
+				F42A49171D4894BE00DE3A46 /* NSString+JWJSONString.h */,
+				F42A49181D4894BE00DE3A46 /* NSString+JWJSONString.m */,
+			);
+			name = NSString;
+			sourceTree = "<group>";
+		};
 		F483C3151D438F8B007AB668 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +75,7 @@
 		F483C3201D438F8B007AB668 /* JWCategories */ = {
 			isa = PBXGroup;
 			children = (
+				F42A49131D488BFA00DE3A46 /* NSString */,
 				F483C3241D438F8B007AB668 /* AppDelegate.h */,
 				F483C3251D438F8B007AB668 /* AppDelegate.m */,
 				F483C3271D438F8B007AB668 /* ViewController.h */,
@@ -151,6 +169,8 @@
 			files = (
 				F483C3291D438F8B007AB668 /* ViewController.m in Sources */,
 				F483C3261D438F8B007AB668 /* AppDelegate.m in Sources */,
+				F42A49161D488D1300DE3A46 /* NSString+JWURLEncode.m in Sources */,
+				F42A49191D4894BE00DE3A46 /* NSString+JWJSONString.m in Sources */,
 				F483C3231D438F8B007AB668 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +320,7 @@
 				F483C3371D438F8B007AB668 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
