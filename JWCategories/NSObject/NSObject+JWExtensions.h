@@ -11,9 +11,9 @@
 @interface NSObject (JWExtensions)
 
 /**
- *  获取属性键值对
- *
- *  @return 键值对字典
+ 获取属性键值对
+
+ @return 键值对字典
  */
 - (NSDictionary *)jw_getAllPropertiesAndVaules;
 

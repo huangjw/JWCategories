@@ -11,18 +11,18 @@
 @interface NSString (JWURLEncode)
 
 /**
- *  URLEncode(默认UTF8)
- *
- *  @return URLEncode后的字符串
+ URLEncode(默认UTF8)
+
+ @return URLEncode后的字符串
  */
 - (NSString *)jw_URLEncode;
 
 - (NSString *)jw_URLEncodeUsingEncoding:(NSStringEncoding)encoding;
 
 /**
- *  URLDecode(默认UTF8)
- *
- *  @return URLDecode后的字符串
+ URLDecode(默认UTF8)
+
+ @return URLDecode后的字符串
  */
 - (NSString *)jw_URLDecode;
 

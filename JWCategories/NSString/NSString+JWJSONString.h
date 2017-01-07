@@ -11,18 +11,17 @@
 @interface NSString (JWJSONString)
 
 /**
- *   NSArray 或者 NSDictionary 转化成JSON字符串
- *
- *  @param 转化对象
- *
- *  @return JSON字符串
+ NSArray 或者 NSDictionary 转化成JSON字符串
+
+ @param object object
+ @return jsonString
  */
 + (NSString *)jw_JSONString:(id)object;
 
 /**
- *  JSON字符串转化成 NSArray 或者 NSDictionary
- *
- *  @return 序列化对象
+ JSON字符串转化成 NSArray 或者 NSDictionary
+
+ @return object
  */
 - (id)jw_JSONObject;
 

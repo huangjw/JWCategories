@@ -11,20 +11,19 @@
 @interface UIImage (JWExtensions)
 
 /**
- *  圆角图
- *
- *  @return 圆角图
+ 圆角图
+
+ @return circle
  */
 - (UIImage *)jw_circleImage;
 
 + (UIImage *)jw_circleImage:(NSString *)name;
 
 /**
- *  透明度图片
- *
- *  @param alpha 透明度
- *
- *  @return 透明度图片
+ 透明度图片
+
+ @param alpha alpha
+ @return image
  */
 - (UIImage *)jw_imageWithAlpha:(CGFloat)alpha;
 
