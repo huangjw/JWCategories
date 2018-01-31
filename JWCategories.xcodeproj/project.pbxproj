@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F42A49161D488D1300DE3A46 /* NSString+JWURLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = F42A49151D488D1300DE3A46 /* NSString+JWURLEncode.m */; };
 		F42A49191D4894BE00DE3A46 /* NSString+JWJSONString.m in Sources */ = {isa = PBXBuildFile; fileRef = F42A49181D4894BE00DE3A46 /* NSString+JWJSONString.m */; };
+		F43D95CB1ECD8BD90006253D /* NSObject+Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = F43D95CA1ECD8BD90006253D /* NSObject+Runtime.m */; };
 		F46985D81D6D81ED0014A4F9 /* UINavigationController+JWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F46985D71D6D81ED0014A4F9 /* UINavigationController+JWExtensions.m */; };
 		F46985DC1D6D83B30014A4F9 /* NSObject+JWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F46985DB1D6D83B30014A4F9 /* NSObject+JWExtensions.m */; };
 		F46985E01D6D86530014A4F9 /* UIImage+JWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F46985DF1D6D86530014A4F9 /* UIImage+JWExtensions.m */; };
@@ -29,6 +30,8 @@
 		F42A49151D488D1300DE3A46 /* NSString+JWURLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+JWURLEncode.m"; path = "NSString/NSString+JWURLEncode.m"; sourceTree = "<group>"; };
 		F42A49171D4894BE00DE3A46 /* NSString+JWJSONString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+JWJSONString.h"; path = "NSString/NSString+JWJSONString.h"; sourceTree = "<group>"; };
 		F42A49181D4894BE00DE3A46 /* NSString+JWJSONString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+JWJSONString.m"; path = "NSString/NSString+JWJSONString.m"; sourceTree = "<group>"; };
+		F43D95C91ECD8BD90006253D /* NSObject+Runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+Runtime.h"; path = "NSObject/NSObject+Runtime.h"; sourceTree = "<group>"; };
+		F43D95CA1ECD8BD90006253D /* NSObject+Runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Runtime.m"; path = "NSObject/NSObject+Runtime.m"; sourceTree = "<group>"; };
 		F46985D61D6D81ED0014A4F9 /* UINavigationController+JWExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+JWExtensions.h"; path = "UINavigationController/UINavigationController+JWExtensions.h"; sourceTree = "<group>"; };
 		F46985D71D6D81ED0014A4F9 /* UINavigationController+JWExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+JWExtensions.m"; path = "UINavigationController/UINavigationController+JWExtensions.m"; sourceTree = "<group>"; };
 		F46985DA1D6D83B30014A4F9 /* NSObject+JWExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+JWExtensions.h"; path = "NSObject/NSObject+JWExtensions.h"; sourceTree = "<group>"; };
@@ -93,6 +96,8 @@
 			children = (
 				F46985DA1D6D83B30014A4F9 /* NSObject+JWExtensions.h */,
 				F46985DB1D6D83B30014A4F9 /* NSObject+JWExtensions.m */,
+				F43D95C91ECD8BD90006253D /* NSObject+Runtime.h */,
+				F43D95CA1ECD8BD90006253D /* NSObject+Runtime.m */,
 			);
 			name = NSObject;
 			sourceTree = "<group>";
@@ -262,6 +267,7 @@
 				F46985D81D6D81ED0014A4F9 /* UINavigationController+JWExtensions.m in Sources */,
 				F483C3291D438F8B007AB668 /* ViewController.m in Sources */,
 				F483C3261D438F8B007AB668 /* AppDelegate.m in Sources */,
+				F43D95CB1ECD8BD90006253D /* NSObject+Runtime.m in Sources */,
 				F46985DC1D6D83B30014A4F9 /* NSObject+JWExtensions.m in Sources */,
 				F4BD74141E207EF100229EC0 /* NSString+JWHash.m in Sources */,
 				F42A49161D488D1300DE3A46 /* NSString+JWURLEncode.m in Sources */,
